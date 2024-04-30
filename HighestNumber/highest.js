@@ -1,7 +1,9 @@
 //Write a program that asks for 10 numbers. Using logical operators and any other javascript functions/structures you've seen before, determine and output the highest of those numbers.
 
 let numbers = prompt("Enter 10 numbers")
-let ArrayNumbers = numbers.split(','); 
+ArrayNumbers.push(numbers);
+
+console.log(ArrayNumbers); 
 
 function Max (arr){
     let max=ArrayNumbers[0]
